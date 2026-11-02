@@ -5,6 +5,14 @@ edition = "2024"
 publish = false
 
 [dependencies]
+anyhow = "1"
+egui = "0.37"
+egui-wgpu = "0.37"
+egui-winit = "0.37"
+pollster = "1"
+thiserror = "2"
+wgpu = "30.0"
+winit = "0.30.13"
 
 [profile.release]
 opt-level = 3
