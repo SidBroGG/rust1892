@@ -1,0 +1,8 @@
+/target/
+/ref/
+**/*.pdb
+/data/
+/assets-cache/
+/run/
+*.log
+.env
